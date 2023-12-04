@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "22487835426",
+    "project_id": "jeeping-8403c",
+    "storage_bucket": "jeeping-8403c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22487835426:android:f6b8bdf719808307053b7b",
+        "android_client_info": {
+          "package_name": "com.mycompany.jeeping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22487835426-ck19b9v7qonr7hjjo96vuhtqbj4u0kvd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.jeeping",
+            "certificate_hash": "ec024986954c8087ea9887c8df009d2b8728315b"
+          }
+        },
+        {
+          "client_id": "22487835426-i0qbv5sqg299v518rgs5mse61k9497kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.jeeping",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "22487835426-3jlcqcuaig8oehacpg9ktva33n71h4cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKcHEMiHA8zCoO-Ay7inonCLd_eM1JX3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22487835426-3jlcqcuaig8oehacpg9ktva33n71h4cd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "22487835426-1ir7ts9qie4e9kulfb76ijicp51000so.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.jeeping"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

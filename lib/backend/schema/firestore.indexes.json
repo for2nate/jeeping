@@ -1,0 +1,142 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Categories",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "OrderNumber",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Hikes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Participants",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Hikes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Guide",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Routes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Published",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "CategoriesRef",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Hikes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Route",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Reviews",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Guide",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "users",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "last_message_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "orders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "paid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Created_at",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "chat_messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "chat",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}
